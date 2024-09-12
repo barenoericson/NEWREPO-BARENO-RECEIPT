@@ -8,7 +8,7 @@ public class MainBaReNO08 {
         receipts r = new receipts();
         r.getReceipt();
         
-        
+      
     }
     
 }

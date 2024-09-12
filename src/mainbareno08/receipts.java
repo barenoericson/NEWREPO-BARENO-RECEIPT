@@ -31,8 +31,22 @@ public class receipts {
         price = sc.nextInt();
         System.out.println("Cash: ");
         cash = sc.nextDouble();
+
+        System.out.println("-------------------------------------");
+        System.out.println("\n---- RECEIPT -----");
+        System.out.println("-------------------------------------");
         
+        System.out.println("Name: "+name+name2);
+        System.out.println("Item: "+prodname+prodname2);
+        System.out.println("Quantity: "+qua);
         
+        System.out.println("-------------------------------------");
+        
+        System.out.println("Total Due: "+(qua*price));
+        System.out.println("Cash "+cash);
+        
+        System.out.println("-------------------------------------");
+        System.out.println("Change: "+(cash-(qua*price)));
         
     }
     
